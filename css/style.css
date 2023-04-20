@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+nav {
+  position: fixed;
+  height: 100%;
+  width: 4rem;
+  background: #D8D8D8;
+  overflow: hidden;
+  transition: width .3s ease;
+  top: 0;
+  border-radius: 0px 30px 30px 0px;
+  z-index: 9000000;
+}
+
+nav a {
+  color:#354760;
+  text-decoration: none;
+  display: table;
+  width: 10.5rem;
+  border-radius: 20px;
+}
+
+nav:hover{
+  width: 11rem;
+}
+
+.logo {
+  width: 9.5rem;
+  padding-left: 6px;
+}
+
+.menu:hover{
+  color: black;
+  font-weight: 900;
+}
+
+.video:hover{
+  background-color: #354760;
+  color: white;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.calificaciones:hover{
+  background-color: #56BC8C;
+  color: white;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ajustes{
+  margin-top: 400px;
+}
+
+.ajustes:hover{
+  background-color: #ff8e51;
+  color: white;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav a .fa-bars, .fa-film, .fa-clipboard, .fa-gear{
+  width: 4rem;
+  display: table-cell;
+  font-size: 20px;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.label {
+  display: table-cell;
+}
+
+h1{
+    text-align: center;
+    size: 2.813rem;
+    margin-top: 3rem;
+    color: #56BC8C;
+    font-weight: 900 bold;
+}
